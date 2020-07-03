@@ -133,4 +133,9 @@ button:hover{
         border-radius: 0px;
         margin-right: 10px;
     }
+
+    .technology-stack > ul > li{
+        margin: 15px 10px;
+        font-size: 18px;
+    }
 }
