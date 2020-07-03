@@ -127,3 +127,10 @@ header{
 button:hover{
     background-color: rgba(0, 136, 169, 0.8);
 }
+
+@media only screen and (max-width: 768px) {
+    .view-resume{
+        border-radius: 0px;
+        margin-right: 10px;
+    }
+}
