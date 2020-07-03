@@ -138,4 +138,8 @@ button:hover{
         margin: 15px 10px;
         font-size: 18px;
     }
+    
+    .nav-links li a{
+        margin-bottom: 10px;
+    }
 }
