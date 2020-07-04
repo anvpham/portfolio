@@ -139,7 +139,7 @@ button:hover{
         font-size: 18px;
     }
     
-    .nav-links li a{
-        margin-bottom: 30px;
+    .nav-links li {
+        margin-bottom: 10px;
     }
 }
