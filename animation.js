@@ -1,12 +1,9 @@
-let name = document.getElementById('name');
-let title = document.getElementById('title');
+const banner = document.querySelector('.banner');
 
 setInterval(() => {
-    name.style.color = '#8c33ff';
-    title.style.color = '#8c33ff';
+    banner.style.color = '#8c33ff';
 }, 1300);
 
 setInterval(() => {
-    name.style.color = 'white';
-    title.style.color = 'white';
+    banner.style.color = 'white';
 }, 2600);
