@@ -130,8 +130,8 @@ button:hover{
 
 @media only screen and (max-width: 768px) {
     .view-resume{
-        border-radius: 0px;
-        margin-right: 10px;
+        border-radius: 10px;
+        margin: 10px 0 10px 0;
     }
 
     .technology-stack > ul > li{
