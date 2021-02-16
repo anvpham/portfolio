@@ -36,7 +36,7 @@ header{
     text-align: center;
     font-size: 28px;
     color: #edf0f1;
-    margin-bottom: 50px;
+    margin-bottom: 1rem;
 }
 
 .contact{
@@ -47,12 +47,16 @@ header{
     text-decoration: none;
 }
 
+#name {
+    margin-bottom: 1rem;
+}
+
 #name, #title{
     transition: all 800ms ease 0s;
 }
 
 .flex-container{
-    margin-top: 80px;
+    margin-top: 3rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -107,10 +111,10 @@ header{
 
 .nav-links{
     list-style: none;
+    display: flex;
 }
 
 .nav-links li{
-    display: inline-block;
     margin: 0px 20px;
 }
 
@@ -129,8 +133,7 @@ button:hover{
 
 @media only screen and (max-width: 768px) {
     .view-resume{
-        border-radius: 6px;
-        margin: 0 5px 0 5px;
+        margin-bottom: 1rem
     }
 
     .technology-stack > ul > li{
@@ -140,5 +143,16 @@ button:hover{
     
     .nav-links li {
         margin-bottom: 10px;
+        margin: 0px 10px;
+
+    }
+
+    .flex-container {
+        flex-direction: column
+    }
+
+    header {
+        padding: 2rem 1rem;
+        margin-bottom: 1rem;
     }
 }
