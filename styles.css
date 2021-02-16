@@ -8,6 +8,10 @@
     background-color: #24252A;
 }
 
+body {
+    padding: 0.5rem
+}
+
 button{
     padding: 9px 25px;
     background-color: #8c33ff;
@@ -28,7 +32,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 2rem 3rem;
 }
 
 .banner{
@@ -112,6 +116,7 @@ header{
 .nav-links{
     list-style: none;
     display: flex;
+    justify-content: space-between
 }
 
 .nav-links li{
@@ -140,19 +145,21 @@ button:hover{
         margin: 15px 10px;
         font-size: 18px;
     }
+
+    .technology-stack {
+        width: auto;
+    }
     
     .nav-links li {
-        margin-bottom: 10px;
-        margin: 0px 10px;
-
+        margin: 1rem 0.5rem
     }
 
     .flex-container {
         flex-direction: column
     }
 
-    header {
-        padding: 2rem 1rem;
-        margin-bottom: 1rem;
+    header{
+        align-items: center;
+        padding: 1rem 0rem
     }
 }
