@@ -48,7 +48,7 @@ header{
 }
 
 #name, #title{
-    transition: all 1.3s ease 0s;
+    transition: all 800ms ease 0s;
 }
 
 .flex-container{
