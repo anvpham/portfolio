@@ -6,11 +6,14 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #1a1a1a;
 }
 
 body {
   padding: 0.5rem;
+  background-image: url('/images/theme.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 button {
@@ -88,7 +91,7 @@ header {
   width: 500px;
   color: #edf0f1;
   border-radius: 10px;
-  background-color: #212121;
+  background-color: #100f14;
   margin-right: 5rem;
 }
 
@@ -101,20 +104,20 @@ header {
   margin-bottom: 10px;
   text-align: center;
   font-family: 'Source Code Pro', monospace;
-  background-color: #212121;
+  background-color: #100f14;
 }
 
 .technology-stack > ul > li {
   margin: 15px 20px;
   font-size: 18px;
-  background-color: #212121;
+  background-color: #100f14;
 }
 
 .technologies {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  background-color: #212121;
+  background-color: #100f14;
 }
 
 .logo {
@@ -140,7 +143,7 @@ header {
 }
 
 i {
-  margin-right: 0.3rem;
+  margin-right: 0.5rem;
 }
 
 .lowOpacity {
@@ -170,6 +173,19 @@ button:hover {
   align-items: center;
 }
 
+.technologyIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7rem;
+}
+
+.techIcon {
+  border-radius: 50%;
+  height: 120px;
+  margin: 0 2rem;
+}
+
 @media only screen and (max-width: 768px) {
   .banner {
     font-family: 'Montserrat', sans-serif;
@@ -194,7 +210,7 @@ button:hover {
   }
 
   .nav-links li {
-    margin: 0.7rem 0.5rem;
+    margin: 0.7rem 1rem;
   }
 
   .nav-links {
@@ -216,5 +232,12 @@ button:hover {
     margin-left: 0;
     margin-bottom: 1rem;
     padding: 0.5rem;
+  }
+
+  .technologyIcons {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
   }
 }
