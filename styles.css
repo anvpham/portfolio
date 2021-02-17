@@ -143,7 +143,7 @@ header {
 }
 
 i {
-  margin-right: 0.5rem;
+  margin-right: 0.3rem;
 }
 
 button:hover {
@@ -210,7 +210,7 @@ button:hover {
   }
 
   .nav-links li {
-    margin: 0.7rem 1rem;
+    margin: 0.7rem 0.8rem;
   }
 
   .nav-links {
