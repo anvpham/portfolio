@@ -183,6 +183,10 @@ button:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  body {
+    padding-bottom: 1rem;
+  }
+
   .banner {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
