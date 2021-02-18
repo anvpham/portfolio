@@ -9,11 +9,15 @@
 }
 
 body {
-  padding: 0.5rem;
-  background-image: url('/images/theme.png');
+  padding: 3rem 0.5rem;
+  background-image: url('/images/theme.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 button {
@@ -34,11 +38,15 @@ button {
   text-decoration: none;
 }
 
-header {
+.contacts {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 2rem 10rem;
+  margin-top: 5rem;
+}
+
+.mainContainer {
+  width: 100%;
 }
 
 .banner {
@@ -78,7 +86,10 @@ header {
   transition: all 0.3s ease 0s;
   border-radius: 6px;
   padding: 24px 32px;
-  max-height: 168px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .view-resume:hover {
@@ -111,6 +122,10 @@ header {
   margin: 15px 20px;
   font-size: 18px;
   background-color: #100f14;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .technologies {
@@ -136,6 +151,10 @@ header {
 
 .nav-links li a {
   transition: all 0.3s ease 0s;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-links li a:hover {
@@ -177,14 +196,29 @@ button:hover {
 }
 
 .techIcon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 0.5rem;
   border-radius: 50%;
-  height: 80px;
-  margin: 0 1rem;
+}
+
+.quote {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  color: #edf0f1;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 4rem;
+}
+
+.author {
+  margin-top: 1rem;
 }
 
 @media only screen and (max-width: 768px) {
   body {
     padding: 1rem;
+    height: auto;
   }
 
   .banner {
@@ -199,7 +233,7 @@ button:hover {
     margin-bottom: 1rem;
   }
 
-  .technology-stack > ul > li {
+  .technology-stack > ul > a {
     margin: 15px 10px;
     font-size: 18px;
   }
@@ -221,10 +255,11 @@ button:hover {
     flex-direction: column;
   }
 
-  header {
+  .contacts {
+    display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem 0rem;
+    margin-top: 2rem;
   }
 
   .intro-container {
@@ -239,5 +274,10 @@ button:hover {
     justify-content: center;
     align-items: center;
     margin-top: 5rem;
+  }
+
+  .quote {
+    font-size: 2rem;
+    margin-top: 2rem;
   }
 }
