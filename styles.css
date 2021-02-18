@@ -247,8 +247,8 @@ button:hover {
     margin: 0.7rem 0.8rem;
   }
 
-  .nav-links {
-    justify-items: center;
+  .nav-links li a {
+    font-size: 0.9rem;
   }
 
   .flex-container {
