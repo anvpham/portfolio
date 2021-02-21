@@ -42,7 +42,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 5rem;
+  margin-top: 6rem;
 }
 
 .mainContainer {
@@ -54,7 +54,7 @@ button {
   text-align: center;
   font-size: 28px;
   color: #edf0f1;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 
 .contact {
@@ -116,6 +116,9 @@ button {
   text-align: center;
   font-family: 'Source Code Pro', monospace;
   background-color: #100f14;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 .technology-stack > ul > li {
@@ -161,8 +164,12 @@ button {
   color: #0088a9;
 }
 
-i {
+.fontawesome-icon {
   margin-right: 0.3rem;
+}
+
+.stack-icon {
+  margin-right: 0.4rem;
 }
 
 button:hover {
