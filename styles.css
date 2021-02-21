@@ -42,7 +42,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 6rem;
+  margin-top: 1.5rem;
 }
 
 .mainContainer {
@@ -218,6 +218,15 @@ button:hover {
   margin-top: 4rem;
 }
 
+.keep-in-touch {
+  color: #edf0f1;
+  text-align: center;
+  font-family: 'Source Code Pro';
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-top: 6rem;
+}
+
 .author {
   margin-top: 1rem;
 }
@@ -266,6 +275,10 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 1rem;
+  }
+
+  .keep-in-touch {
     margin-top: 2rem;
   }
 
