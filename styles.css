@@ -235,6 +235,7 @@ button:hover {
   body {
     padding: 2rem 1rem;
     height: auto;
+    background-position: unset;
   }
 
   .banner {
@@ -299,5 +300,11 @@ button:hover {
   .quote {
     font-size: 2rem;
     margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .keep-in-touch {
+    margin-top: 1.5rem;
   }
 }
