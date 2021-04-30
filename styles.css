@@ -309,4 +309,8 @@ button:hover {
   .keep-in-touch {
     margin-top: 1.5rem;
   }
+
+  .flex-container {
+    justify-content: space-between;
+  }
 }
