@@ -188,6 +188,7 @@ button:hover {
   color: #edf0f1;
   margin-bottom: 2rem;
   font-weight: 400;
+  text-align: justify;
 }
 
 .buttonContainer {
